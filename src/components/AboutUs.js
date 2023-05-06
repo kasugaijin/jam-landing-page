@@ -22,9 +22,83 @@ const AboutUs = () => {
           ></polygon>
         </svg>
       </div>
-      <div className="container mx-auto text-6xl text-white">
-        <h3>About Us</h3>
+      <div className="container mx-auto">
+        <div className="flex flex-wrap items-center">
+          <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+            <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+              <img
+                alt="..."
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                className="w-full align-middle rounded-t-lg"
+              />
+              <blockquote className="relative p-8 mb-4">
+                <h4 className="text-xl font-bold text-gray-800">
+                  Great for your awesome project
+                </h4>
+                <p className="text-md font-light mt-2 text-gray-600">
+                  Putting together a page has never been easier than matching
+                  together pre-made components. From landing pages presentation
+                  to login areas, you can easily customise and built your pages.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div className="w-full md:w-6/12 px-4">
+            <div className="text-white">
+              <h3 className="text-6xl">About Us</h3>
+              <p className="text-base mt-5">
+                Do culpa ea culpa fugiat incididunt dolor reprehenderit aute
+                Lorem ad ut. In nostrud cupidatat sint sunt laboris aute elit
+                laborum consequat nulla sunt amet. Eiusmod eu amet esse nostrud
+                ipsum enim elit id officia fugiat culpa. Est veniam culpa ad ea.
+                Aute consequat dolor in eiusmod duis ullamco dolore amet. Aute
+                velit officia velit nostrud eiusmod est exercitation occaecat
+                laborum reprehenderit consequat. Aliqua est est enim voluptate
+                Lorem anim adipisicing sit commodo esse cillum exercitation.
+                Anim eu commodo laborum laborum. Et est irure quis consequat
+                elit magna deserunt commodo pariatur Lorem est consectetur.
+                Tempor culpa minim officia tempor dolor minim laboris mollit
+                quis id ad qui. Fugiat officia enim irure laboris velit. Fugiat
+                consectetur deserunt mollit dolor. Amet occaecat nulla duis et
+                fugiat nulla et officia ex duis velit consectetur esse commodo.
+                Pariatur do eu proident reprehenderit. Minim sunt et occaecat
+                exercitation dolor ut ea. Commodo deserunt nisi incididunt
+                cillum cillum exercitation incididunt nisi amet culpa anim
+                cillum Lorem dolor. Excepteur voluptate deserunt esse
+                adipisicing anim cupidatat nostrud voluptate veniam. Sint
+                excepteur mollit culpa eiusmod commodo tempor amet ex ipsum
+                irure dolor.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+      {/* <div className="text-white">
+            <h3 className="text-6xl">About Us</h3>
+            <p className="text-base mt-5">
+              Do culpa ea culpa fugiat incididunt dolor reprehenderit aute Lorem
+              ad ut. In nostrud cupidatat sint sunt laboris aute elit laborum
+              consequat nulla sunt amet. Eiusmod eu amet esse nostrud ipsum enim
+              elit id officia fugiat culpa. Est veniam culpa ad ea. Aute
+              consequat dolor in eiusmod duis ullamco dolore amet. Aute velit
+              officia velit nostrud eiusmod est exercitation occaecat laborum
+              reprehenderit consequat. Aliqua est est enim voluptate Lorem anim
+              adipisicing sit commodo esse cillum exercitation. Anim eu commodo
+              laborum laborum. Et est irure quis consequat elit magna deserunt
+              commodo pariatur Lorem est consectetur. Tempor culpa minim officia
+              tempor dolor minim laboris mollit quis id ad qui. Fugiat officia
+              enim irure laboris velit. Fugiat consectetur deserunt mollit
+              dolor. Amet occaecat nulla duis et fugiat nulla et officia ex duis
+              velit consectetur esse commodo. Pariatur do eu proident
+              reprehenderit. Minim sunt et occaecat exercitation dolor ut ea.
+              Commodo deserunt nisi incididunt cillum cillum exercitation
+              incididunt nisi amet culpa anim cillum Lorem dolor. Excepteur
+              voluptate deserunt esse adipisicing anim cupidatat nostrud
+              voluptate veniam. Sint excepteur mollit culpa eiusmod commodo
+              tempor amet ex ipsum irure dolor.
+            </p>
+          </div> */}
     </section>
   );
 };
