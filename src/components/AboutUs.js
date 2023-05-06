@@ -74,31 +74,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      {/* <div className="text-white">
-            <h3 className="text-6xl">About Us</h3>
-            <p className="text-base mt-5">
-              Do culpa ea culpa fugiat incididunt dolor reprehenderit aute Lorem
-              ad ut. In nostrud cupidatat sint sunt laboris aute elit laborum
-              consequat nulla sunt amet. Eiusmod eu amet esse nostrud ipsum enim
-              elit id officia fugiat culpa. Est veniam culpa ad ea. Aute
-              consequat dolor in eiusmod duis ullamco dolore amet. Aute velit
-              officia velit nostrud eiusmod est exercitation occaecat laborum
-              reprehenderit consequat. Aliqua est est enim voluptate Lorem anim
-              adipisicing sit commodo esse cillum exercitation. Anim eu commodo
-              laborum laborum. Et est irure quis consequat elit magna deserunt
-              commodo pariatur Lorem est consectetur. Tempor culpa minim officia
-              tempor dolor minim laboris mollit quis id ad qui. Fugiat officia
-              enim irure laboris velit. Fugiat consectetur deserunt mollit
-              dolor. Amet occaecat nulla duis et fugiat nulla et officia ex duis
-              velit consectetur esse commodo. Pariatur do eu proident
-              reprehenderit. Minim sunt et occaecat exercitation dolor ut ea.
-              Commodo deserunt nisi incididunt cillum cillum exercitation
-              incididunt nisi amet culpa anim cillum Lorem dolor. Excepteur
-              voluptate deserunt esse adipisicing anim cupidatat nostrud
-              voluptate veniam. Sint excepteur mollit culpa eiusmod commodo
-              tempor amet ex ipsum irure dolor.
-            </p>
-          </div> */}
     </section>
   );
 };
