@@ -11,7 +11,7 @@ export default function Navbar(props) {
               to="/"
               className="text-red-500 text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             >
-              Jam Web Dev
+              Ruby Jam
             </a>
           </div>
           <div
