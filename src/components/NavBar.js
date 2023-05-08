@@ -21,14 +21,11 @@ export default function Navbar(props) {
             id="example-navbar-warning"
           >
             <ul className="flex gap-5 list-none lg:ml-auto">
-              <li className="flex items-center">About Us</li>
-              <li className="flex items-center">Services</li>
+              <li className="flex items-center text-gray-800">About Us</li>
+              <li className="flex items-center text-gray-800">Services</li>
 
               <li className="flex items-center">
-                <button
-                  className="bg-primary flex items-center gap-2 text-white font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150"
-                  type="button"
-                >
+                <button className="btn-primary" type="button">
                   <BiEnvelope /> Contact
                 </button>
               </li>

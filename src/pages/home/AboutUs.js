@@ -1,11 +1,13 @@
 import React from "react";
 import placeholder from "../../assets/mrJam.png";
+import benHeadShot from "../../assets/ben.jpeg";
+import amiHeadShot from "../../assets/ami.jpeg";
 
 const AboutUs = () => {
   return (
-    <section className="pt-20 pb-40 relative bg-white">
+    <section className="pt-20 pb-60 relative bg-gray-100">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-center mb-24">
+        <div className="flex flex-wrap justify-center mb-10">
           <div className="w-full lg:w-6/12 px-4">
             <h2 className="text-4xl font-semibold text-gray-800 text-center">
               About
@@ -26,22 +28,26 @@ const AboutUs = () => {
         <div className="flex justify-center">
           <div className="lg:mb-0 mb-12 px-4">
             <div className="px-6">
-              <img src={placeholder} alt="placeholder" className="w-64" />
+              <img src={benHeadShot} alt="" className="w-64 rounded-full" />
               <div className="pt-6 text-center">
-                <h5 className="text-xl font-bold">Ben Robinson</h5>
-                <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                  Web Developer
+                <h5 className="text-xl font-bold text-gray-800">
+                  Ben Robinson
+                </h5>
+                <p className="mt-1 text-sm text-gray-600 uppercase font-semibold">
+                  Full-stack Developer
                 </p>
               </div>
             </div>
           </div>
           <div className="lg:mb-0 mb-12 px-4">
             <div className="px-6">
-              <img src={placeholder} alt="placeholder" className="w-64" />
+              <img src={amiHeadShot} alt="" className="w-64 rounded-full" />
               <div className="pt-6 text-center">
-                <h5 className="text-xl font-bold">Ami Robinson</h5>
-                <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                  UI/UX Designer
+                <h5 className="text-xl font-bold text-gray-800">
+                  Ami Robinson
+                </h5>
+                <p className="mt-1 text-sm text-gray-600 uppercase font-semibold">
+                  UI/UX Designer<br></br>Frontend Developer
                 </p>
               </div>
             </div>

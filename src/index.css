@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-primary {
+  @apply bg-primary flex items-center gap-2 text-white font-bold uppercase px-4 py-2 rounded shadow outline-none  hover:shadow-lg hover:bg-secondary focus:outline-none ease-linear transition-all duration-150;
+}

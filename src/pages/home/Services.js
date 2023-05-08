@@ -1,4 +1,7 @@
 import React from "react";
+import { MdWebAsset } from "react-icons/md";
+import { MdWeb } from "react-icons/md";
+import { TbTool } from "react-icons/tb";
 
 const Services = () => {
   return (
@@ -33,9 +36,11 @@ const Services = () => {
             <div className="w-full md:w-4/12 px-4 text-center h-96">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"></div>
-                  <h6 className="text-xl font-semibold">Websites</h6>
-                  <p className="mt-2 mb-4">
+                  <MdWebAsset className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
+                  <h6 className="text-xl font-semibold text-gray-800">
+                    Websites
+                  </h6>
+                  <p className="mt-2 mb-4 text-gray-700">
                     Divide details about your product or agency work into parts.
                     A paragraph describing a feature will be enough.
                   </p>
@@ -45,9 +50,11 @@ const Services = () => {
             <div className="w-full md:w-4/12 px-4 text-center h-96">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"></div>
-                  <h6 className="text-xl font-semibold">Full-stack Apps</h6>
-                  <p className="mt-2 mb-4">
+                  <MdWeb className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
+                  <h6 className="text-xl font-semibold text-gray-800">
+                    Full-stack Apps
+                  </h6>
+                  <p className="mt-2 mb-4 text-gray-700">
                     Divide details about your product or agency work into parts.
                     A paragraph describing a feature will be enough.
                   </p>
@@ -57,9 +64,11 @@ const Services = () => {
             <div className="w-full md:w-4/12 px-4 text-center h-96">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"></div>
-                  <h6 className="text-xl font-semibold">Maintenance</h6>
-                  <p className="mt-2 mb-4">
+                  <TbTool className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
+                  <h6 className="text-xl font-semibold text-gray-800">
+                    Maintenance
+                  </h6>
+                  <p className="mt-2 mb-4 text-gray-700">
                     Divide details about your product or agency work into parts.
                     A paragraph describing a feature will be enough.
                   </p>
