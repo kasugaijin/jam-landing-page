@@ -1,11 +1,10 @@
 import React from "react";
-import placeholder from "../../assets/mrJam.png";
 import benHeadShot from "../../assets/ben.jpeg";
 import amiHeadShot from "../../assets/ami.jpeg";
 
 const AboutUs = () => {
   return (
-    <section className="pt-20 pb-60 relative bg-gray-100">
+    <section className="pt-20 pb-60 relative">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center mb-10">
           <div className="w-full lg:w-6/12 px-4">
