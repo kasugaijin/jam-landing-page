@@ -2,6 +2,7 @@ import React from "react";
 import { MdWebAsset } from "react-icons/md";
 import { MdWeb } from "react-icons/md";
 import { TbTool } from "react-icons/tb";
+import { RxDividerHorizontal } from "react-icons/rx";
 
 const Services = () => {
   return (
@@ -26,51 +27,66 @@ const Services = () => {
         </svg>
       </div>
       <div>
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap justify-center text-center mb-24">
-            <div className="w-full lg:w-6/12 px-4  text-white">
-              <h2 className="text-4xl font-semibold">What we can do for you</h2>
-            </div>
-          </div>
+        <div className="container mx-auto">
+          <h2 className="h2 text-white">What we can do for you</h2>
+
           <div className="flex flex-wrap">
-            <div className="w-full md:w-4/12 px-4 text-center h-96">
+            <div className="w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                <div className="px-4 py-5 flex-auto">
+                <div className="px-8 py-5 flex-auto">
                   <MdWebAsset className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
                   <h6 className="text-xl font-semibold text-gray-800">
                     Websites
                   </h6>
-                  <p className="mt-2 mb-4 text-gray-700">
+                  <p className="mt-2 mb-4 text-gray-700 text-justify">
                     Divide details about your product or agency work into parts.
-                    A paragraph describing a feature will be enough.
+                    A paragraph describing a feature will be enough.Adipisicing
+                    excepteur ut ut eu laborum ipsum dolore. Ullamco proident ut
+                    sint commodo elit. Labore tempor proident aliqua non veniam
+                    magna dolore quis laboris. Nulla ex id consectetur commodo.
+                    Lorem nisi duis reprehenderit id culpa. Incididunt occaecat
+                    reprehenderit cupidatat dolor ad incididunt ipsum
+                    exercitation commodo tempor consequat labore ut.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-4/12 px-4 text-center h-96">
+            <div className="w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                <div className="px-4 py-5 flex-auto">
+                <div className="px-8 py-5 flex-auto">
                   <MdWeb className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
                   <h6 className="text-xl font-semibold text-gray-800">
                     Full-stack Apps
                   </h6>
-                  <p className="mt-2 mb-4 text-gray-700">
+                  <p className="mt-2 mb-4 text-gray-700 text-justify">
                     Divide details about your product or agency work into parts.
-                    A paragraph describing a feature will be enough.
+                    A paragraph describing a feature will be enough.Adipisicing
+                    excepteur ut ut eu laborum ipsum dolore. Ullamco proident ut
+                    sint commodo elit. Labore tempor proident aliqua non veniam
+                    magna dolore quis laboris. Nulla ex id consectetur commodo.
+                    Lorem nisi duis reprehenderit id culpa. Incididunt occaecat
+                    reprehenderit cupidatat dolor ad incididunt ipsum
+                    exercitation commodo tempor consequat labore ut.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-4/12 px-4 text-center h-96">
+            <div className="w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                <div className="px-4 py-5 flex-auto">
+                <div className="px-8 py-5 flex-auto">
                   <TbTool className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
                   <h6 className="text-xl font-semibold text-gray-800">
                     Maintenance
                   </h6>
-                  <p className="mt-2 mb-4 text-gray-700">
+                  <p className="mt-2 mb-4 text-gray-700 text-justify">
                     Divide details about your product or agency work into parts.
-                    A paragraph describing a feature will be enough.
+                    A paragraph describing a feature will be enough.Adipisicing
+                    excepteur ut ut eu laborum ipsum dolore. Ullamco proident ut
+                    sint commodo elit. Labore tempor proident aliqua non veniam
+                    magna dolore quis laboris. Nulla ex id consectetur commodo.
+                    Lorem nisi duis reprehenderit id culpa. Incididunt occaecat
+                    reprehenderit cupidatat dolor ad incididunt ipsum
+                    exercitation commodo tempor consequat labore ut.
                   </p>
                 </div>
               </div>

@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center mb-10">
           <div className="w-full lg:w-6/12 px-4">
-            <h2 className="text-4xl font-semibold text-gray-800 text-center">
+            <h2 className="h2 text-gray-800">
               About
             </h2>
             <p className="text-lg leading-relaxed m-4 text-gray-600 text-justify">

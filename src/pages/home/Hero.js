@@ -4,7 +4,7 @@ import placeholder from "../../assets/mrJam.png";
 const Hero = () => {
   return (
     <header className="header container mx-auto items-center flex h-screen max-h-860-px">
-      <div className="pr-8">
+      <div className="md:pr-8">
         <h2 className="font-semibold text-6xl text-gray-800">
           Custom web solutions designed just for you
         </h2>
@@ -15,7 +15,11 @@ const Hero = () => {
         </p>
       </div>
 
-      <img src={placeholder} alt="Character Mr.Jam illustration" />
+      <img
+        src={placeholder}
+        className="hidden md:block "
+        alt="Character Mr.Jam illustration"
+      />
     </header>
   );
 };
