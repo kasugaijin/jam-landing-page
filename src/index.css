@@ -1,13 +1,14 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .btn-primary {
-  @apply bg-primary flex items-center gap-2 text-white font-bold uppercase px-4 py-2 rounded shadow outline-none  hover:shadow-lg hover:bg-secondary focus:outline-none ease-linear transition-all duration-150 focus:ring-4 focus:ring-inset focus:ring-gray-600;
+  @apply bg-primary flex items-center gap-2 text-white font-bold uppercase px-4 py-2 rounded-full shadow outline-none  hover:shadow-lg hover:bg-secondary focus:outline-none ease-linear transition-all duration-150 focus:ring-4 focus:ring-inset focus:ring-gray-600;
 }
 
 .btn-secondary {
-  @apply bg-white flex items-center gap-2 text-primary font-bold uppercase px-4 py-2 rounded shadow outline-none  hover:shadow-lg hover:bg-primary hover:text-white focus:outline-none ease-linear transition-all duration-150 focus:ring-4 focus:ring-inset focus:ring-gray-600;
+  @apply bg-white flex items-center gap-2 text-primary font-bold uppercase px-4 py-2 rounded-full shadow outline-none  hover:shadow-lg hover:bg-primary hover:text-white focus:outline-none ease-linear transition-all duration-150 focus:ring-4 focus:ring-inset focus:ring-gray-600;
 }
 
 .h2 {
