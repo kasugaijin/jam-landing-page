@@ -5,6 +5,7 @@ import Services from "./pages/home/Services";
 import Footer from "./components/Footer";
 
 function App() {
+
   return (
     <div className="App">
       <NavBar />
