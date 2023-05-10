@@ -1,7 +1,13 @@
 import React from "react";
 import placeholder from "../../assets/mrJam.png";
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 
 const Hero = () => {
+  const ref = useIntersectionObserver({
+    rootMargin: "0px",
+    threshold: 0.1,
+  });
+
   return (
     <header className="header container mx-auto items-center flex h-screen max-h-860-px relative">
       <div className="md:pr-8">
@@ -16,8 +22,9 @@ const Hero = () => {
       </div>
 
       <img
+        ref={ref}
         src={placeholder}
-        className="hidden md:block"
+        className="hidden md:block animation-hidden"
         alt="Character Mr.Jam illustration"
       />
     </header>
