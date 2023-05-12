@@ -80,12 +80,6 @@ export default function Navbar() {
         </button>
       </div>
       {/* mobile menu */}
-      {/* <div
-        className={` 
-         md:hidden container mx-auto flex flex-col items-end gap-2 px-2 bg-white ${
-           isOpen ? "mobile-menu-open" : "mobile-menu-closed"
-         }`}
-      > */}
       <div
         className={` 
         absolute md:hidden top-15 right-0 w-40 bg-gray-800 bg-opacity-90 transition-transform duration-300 ease-in-out transform-gpu p-4 ${
