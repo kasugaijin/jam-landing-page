@@ -88,7 +88,7 @@ export default function Navbar() {
       > */}
       <div
         className={` 
-        fixed md:hidden top-19 right-0 w-40 bg-gray-800 bg-opacity-90 transition-transform duration-300 ease-in-out transform-gpu p-4 ${
+        absolute md:hidden top-15 right-0 w-40 bg-gray-800 bg-opacity-90 transition-transform duration-300 ease-in-out transform-gpu p-4 ${
           isOpen ? "mobile-menu-open" : "mobile-menu-closed"
         }`}
       >
