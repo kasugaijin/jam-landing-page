@@ -1,13 +1,21 @@
 import React from "react";
 import { BiEnvelope } from "react-icons/bi";
 import { useState } from "react";
-import { IoMdMenu } from "react-icons/io";
+// import { IoMdMenu } from "react-icons/io";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleClick = () => {
+    if (!isOpen) {
+      setIsOpen(true);
+    } else {
+      setIsOpen(false);
+    }
+  };
+
   return (
-    <nav className="top-0 fixed z-50 w-full py-3 bg-white shadow">
+    <nav className="top-0 fixed w-full py-3 bg-white shadow z-50">
       <div className="container mx-auto flex items-center justify-between">
         {/* logo*/}
         <a
@@ -32,27 +40,71 @@ export default function Navbar() {
 
         {/* Hamburger button */}
         <button
-          className="block md:hidden text-primary hover:text-gray-600 focus:ring-2 focus:ring-inset focus:ring-white"
+          className="hamburger block md:hidden text-primary focus:ring-2 focus:ring-inset focus:ring-white"
+          aria-controls="primary-navigation"
           aria-expanded={isOpen}
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={handleClick}
         >
-          <span className="sr-only">Open main menu</span>
-          <IoMdMenu className="md:hidden w-8 h-8" />
+          <svg
+            class="hamburger fill-primary"
+            viewBox="0 0 100 100"
+            width="50"
+            height="50"
+            transform="scale(0.8)"
+          >
+            <rect
+              class="line top"
+              width="80"
+              height="10"
+              x="10"
+              y="25"
+              rx="5"
+            ></rect>
+            <rect
+              class="line middle"
+              width="80"
+              height="10"
+              x="10"
+              y="45"
+              rx="5"
+            ></rect>
+            <rect
+              class="line bottom"
+              width="80"
+              height="10"
+              x="10"
+              y="65"
+              rx="5"
+            ></rect>
+          </svg>
         </button>
       </div>
       {/* mobile menu */}
+      {/* <div
+        className={` 
+         md:hidden container mx-auto flex flex-col items-end gap-2 px-2 bg-white ${
+           isOpen ? "mobile-menu-open" : "mobile-menu-closed"
+         }`}
+      > */}
       <div
-        className={`${
-          isOpen ? "block" : "hidden"
-        } md:hidden container mx-auto flex flex-col items-end gap-5 bg-white`}
+        className={` 
+        fixed md:hidden top-19 right-0 w-40 bg-gray-800 bg-opacity-90 transition-transform duration-300 ease-in-out transform-gpu p-4 ${
+          isOpen ? "mobile-menu-open" : "mobile-menu-closed"
+        }`}
       >
-        <a href="a" className=" text-gray-800 hover:text-primary">
+        <a
+          href="a"
+          className="block text-white hover:text-primary mb-2 text-right mr-1"
+        >
           About Us
         </a>
-        <a href="a" className=" text-gray-800 hover:text-primary">
+        <a
+          href="a"
+          className="block text-white hover:text-primary mb-2 text-right mr-1"
+        >
           Services
         </a>
-        <button className="btn-primary flex items-center" type="button">
+        <button className="btn-primary flex items-center ml-auto" type="button">
           <BiEnvelope /> Contact
         </button>
       </div>

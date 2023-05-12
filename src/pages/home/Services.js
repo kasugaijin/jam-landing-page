@@ -2,25 +2,8 @@ import React from "react";
 import { MdWebAsset } from "react-icons/md";
 import { MdWeb } from "react-icons/md";
 import { TbTool } from "react-icons/tb";
-import AnimatedHeading2 from "../../components/AnimatedHeading2.js";
-import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 
 const Services = () => {
-  const ref2 = useIntersectionObserver({
-    rootMargin: "0px",
-    threshold: 0.1,
-  });
-
-  const ref3 = useIntersectionObserver({
-    rootMargin: "0px",
-    threshold: 0.1,
-  });
-
-  const ref4 = useIntersectionObserver({
-    rootMargin: "0px",
-    threshold: 0.1,
-  });
-
   return (
     <section className="pt-10 pb-10 relative bg-secondary">
       <div
@@ -43,16 +26,10 @@ const Services = () => {
         </svg>
       </div>
       <div className="container mx-auto">
-        <AnimatedHeading2
-          textColor={"text-white"}
-          text={"What we can do for you"}
-        />
+        <h2 className="text-white h2">What we can do for you</h2>
 
         <div className="flex flex-wrap cards">
-          <div
-            ref={ref2}
-            className="animation-hidden w-full md:w-4/12 px-4 text-center card"
-          >
+          <div className="w-full md:w-4/12 px-4 text-center card">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div className="px-8 py-5 flex-auto">
                 <MdWebAsset className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
@@ -72,10 +49,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div
-            ref={ref3}
-            className="animation-hidden w-full md:w-4/12 px-4 text-center card"
-          >
+          <div className="w-full md:w-4/12 px-4 text-center card">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div className="px-8 py-5 flex-auto">
                 <MdWeb className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
@@ -95,10 +69,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div
-            ref={ref4}
-            className="animation-hidden w-full md:w-4/12 px-4 text-center card"
-          >
+          <div className="w-full md:w-4/12 px-4 text-center card">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div className="px-8 py-5 flex-auto">
                 <TbTool className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-secondary" />
