@@ -32,9 +32,9 @@ const Footer = () => {
           className="animation-hidden flex justify-center bg-secondary shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10"
         >
           <form className="w-full text-center lg:w-8/12">
-            <h3 className="font-semibold text-3xl text-white">
+            <h3g className="font-semibold text-3xl text-white">
               Contact us today to start chatting!
-            </h3>
+            </h3g>
             <div className="mb-4 mt-6">
               <label className="sr-only" for="name">
                 Name
