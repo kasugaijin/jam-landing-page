@@ -1,6 +1,7 @@
 import React from "react";
 import placeholder from "../../assets/mrJam.png";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import CtaButton from "../../components/CtaButton";
 
 const Hero = () => {
   const ref = useIntersectionObserver({
@@ -15,9 +16,12 @@ const Hero = () => {
         We'll bring your online vision to life.
         </h2>
         <p className="mt-8 text-xl leading-relaxed text-gray-600">
-          From concept to care, we build and maintain custom websites and
-          full-stack applications.
+          We specialize in building and maintaining websites and full-stack applications in React 
+          and Ruby on Rails. Contact us now to learn more about how we can help you.
         </p>
+        <div className="mt-6 flex justify-start">
+          <CtaButton/>
+        </div>
       </div>
 
       <img

@@ -1,6 +1,7 @@
 import React from "react";
 import { BiEnvelope } from "react-icons/bi";
 import { useState } from "react";
+import CtaButton from "./CtaButton";
 // import { IoMdMenu } from "react-icons/io";
 
 export default function Navbar() {
@@ -33,9 +34,7 @@ export default function Navbar() {
           <a href="A" className=" text-gray-800 hover:text-primary">
             Services
           </a>
-          <button className="btn-primary flex items-center" type="button">
-            <BiEnvelope /> Contact
-          </button>
+          <CtaButton/>
         </div>
 
         {/* Hamburger button */}
@@ -98,9 +97,7 @@ export default function Navbar() {
         >
           Services
         </a>
-        <button className="btn-primary flex items-center ml-auto" type="button">
-          <BiEnvelope /> Contact
-        </button>
+        <CtaButton/>
       </div>
     </nav>
   );
