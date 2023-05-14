@@ -34,7 +34,9 @@ export default function Navbar() {
           <a href="A" className=" text-gray-800 hover:text-primary">
             Services
           </a>
-          <CtaButton/>
+          <a href="A" className=" text-gray-800 hover:text-primary">
+            Contact
+          </a>
         </div>
 
         {/* Hamburger button */}
@@ -97,7 +99,9 @@ export default function Navbar() {
         >
           Services
         </a>
-        <CtaButton/>
+        <a href="A" className=" text-gray-800 hover:text-primary">
+            Contact
+        </a>
       </div>
     </nav>
   );
