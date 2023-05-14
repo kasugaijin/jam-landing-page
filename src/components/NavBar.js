@@ -47,14 +47,14 @@ export default function Navbar() {
           onClick={handleClick}
         >
           <svg
-            class="hamburger fill-primary"
+            className="hamburger fill-primary"
             viewBox="0 0 100 100"
             width="50"
             height="50"
             transform="scale(0.8)"
           >
             <rect
-              class="line top"
+              className="line top"
               width="80"
               height="10"
               x="10"
@@ -62,7 +62,7 @@ export default function Navbar() {
               rx="5"
             ></rect>
             <rect
-              class="line middle"
+              className="line middle"
               width="80"
               height="10"
               x="10"
@@ -70,7 +70,7 @@ export default function Navbar() {
               rx="5"
             ></rect>
             <rect
-              class="line bottom"
+              className="line bottom"
               width="80"
               height="10"
               x="10"

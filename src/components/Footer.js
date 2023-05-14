@@ -30,13 +30,14 @@ const Footer = () => {
         <div
           ref={ref}
           className="animation-hidden flex justify-center bg-secondary shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10"
+          id="contact-form"
         >
           <form className="w-full text-center lg:w-8/12">
-            <h3g className="font-semibold text-3xl text-white">
+            <h3 className="font-semibold text-3xl text-white">
               Contact us today to start chatting!
-            </h3g>
+            </h3>
             <div className="mb-4 mt-6">
-              <label className="sr-only" for="name">
+              <label className="sr-only">
                 Name
               </label>
               <input
@@ -48,7 +49,7 @@ const Footer = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="sr-only" for="email">
+              <label className="sr-only">
                 Email
               </label>
               <input
@@ -60,7 +61,7 @@ const Footer = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="sr-only" for="message">
+              <label className="sr-only">
                 Message
               </label>
               <textarea
