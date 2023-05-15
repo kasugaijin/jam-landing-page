@@ -15,6 +15,17 @@ export default function Navbar() {
     }
   };
 
+  const scrollToContactForm = () => {
+    const contactFormElement = document.getElementById('contact-form');
+    if (contactFormElement) {
+      const { top } = contactFormElement.getBoundingClientRect();
+      window.scrollTo({
+        top: window.pageYOffset + top,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
     <nav className="top-0 fixed w-full py-3 bg-white shadow z-50">
       <div className="container mx-auto flex items-center justify-between">
@@ -34,7 +45,10 @@ export default function Navbar() {
           <a href="A" className=" text-gray-800 hover:text-primary">
             Services
           </a>
-          <a href="A" className=" text-gray-800 hover:text-primary">
+          <a 
+            className="text-gray-800 hover:text-primary"
+            onClick={scrollToContactForm}  
+          >
             Contact
           </a>
         </div>

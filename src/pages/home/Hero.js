@@ -13,14 +13,14 @@ const Hero = () => {
     <header className="header container mx-auto items-center flex h-screen max-h-860-px relative">
       <div className="md:pr-8">
         <h2 className="font-semibold text-6xl text-gray-800">
-        We'll bring your online vision to life.
+          We'll bring your online vision to life.
         </h2>
         <p className="mt-8 text-xl leading-relaxed text-gray-600">
           We specialize in building and maintaining websites and full-stack applications in React 
           and Ruby on Rails. Contact us now to learn more about how we can help you.
         </p>
         <div className="mt-6 flex justify-start">
-          <CtaButton/>
+          <CtaButton />
         </div>
       </div>
 
