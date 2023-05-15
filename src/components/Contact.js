@@ -1,7 +1,8 @@
 import React from 'react'
 import { BiEnvelope } from "react-icons/bi";
 
-const CtaButton = () => {
+const Contact = ({className, showEnvelope}) => {
+
   const scrollToContactForm = () => {
     const contactFormElement = document.getElementById('contact-form');
     if (contactFormElement) {
@@ -14,14 +15,13 @@ const CtaButton = () => {
   };
 
   return (
-    <button 
-      className="btn-primary flex items-center ml-auto" 
-      type="button"
+    <div
       onClick={scrollToContactForm}
+      className={className}
     >
-      <BiEnvelope /> Contact
-    </button>
+      {showEnvelope && <BiEnvelope/>} Contact
+    </div>
   );
 };
 
-export default CtaButton
+export default Contact

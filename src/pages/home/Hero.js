@@ -1,7 +1,7 @@
 import React from "react";
 import placeholder from "../../assets/mrJam.png";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
-import CtaButton from "../../components/CtaButton";
+import Contact from "../../components/Contact";
 
 const Hero = () => {
   const ref = useIntersectionObserver({
@@ -20,7 +20,10 @@ const Hero = () => {
           and Ruby on Rails. Contact us now to learn more about how we can help you.
         </p>
         <div className="mt-6 flex justify-start">
-          <CtaButton />
+          <Contact 
+            className="btn-primary flex items-center ml-auto cursor-pointer" 
+            showEnvelope={true}
+          />
         </div>
       </div>
 

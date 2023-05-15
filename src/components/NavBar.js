@@ -1,7 +1,6 @@
 import React from "react";
-import { BiEnvelope } from "react-icons/bi";
 import { useState } from "react";
-import CtaButton from "./CtaButton";
+import Contact from "./Contact";
 // import { IoMdMenu } from "react-icons/io";
 
 export default function Navbar() {
@@ -12,17 +11,6 @@ export default function Navbar() {
       setIsOpen(true);
     } else {
       setIsOpen(false);
-    }
-  };
-
-  const scrollToContactForm = () => {
-    const contactFormElement = document.getElementById('contact-form');
-    if (contactFormElement) {
-      const { top } = contactFormElement.getBoundingClientRect();
-      window.scrollTo({
-        top: window.pageYOffset + top,
-        behavior: 'smooth',
-      });
     }
   };
 
@@ -45,12 +33,7 @@ export default function Navbar() {
           <a href="A" className=" text-gray-800 hover:text-primary">
             Services
           </a>
-          <a 
-            className="text-gray-800 hover:text-primary"
-            onClick={scrollToContactForm}  
-          >
-            Contact
-          </a>
+          <Contact className="cursor-pointer" showEnvelope={false}/>
         </div>
 
         {/* Hamburger button */}
