@@ -86,13 +86,13 @@ export default function Navbar() {
       >
         <a
           href="a"
-          className="block text-white hover:text-primary mb-2 mr-1"
+          className="block text-white hover:text-primary mb-2"
         >
           About Us
         </a>
         <a
           href="a"
-          className="block text-white hover:text-primary mb-2 mr-1"
+          className="block text-white hover:text-primary mb-2"
         >
           Services
         </a>
