@@ -33,7 +33,7 @@ export default function Navbar() {
           <a href="A" className=" text-gray-800 hover:text-primary">
             Services
           </a>
-          <Contact className="cursor-pointer" showEnvelope={false}/>
+          <Contact className="text-gray-800 hover:text-primary" showEnvelope={false}/>
         </div>
 
         {/* Hamburger button */}
@@ -80,25 +80,23 @@ export default function Navbar() {
       {/* mobile menu */}
       <div
         className={` 
-        absolute md:hidden top-15 right-0 w-40 bg-gray-800 bg-opacity-90 transition-transform duration-300 ease-in-out transform-gpu p-4 ${
+        absolute md:hidden top-15 right-0 w-40 bg-gray-800 bg-opacity-90 transition-transform duration-300 ease-in-out transform-gpu p-4 rounded-md flex flex-col items-end ${
           isOpen ? "mobile-menu-open" : "mobile-menu-closed"
         }`}
       >
         <a
           href="a"
-          className="block text-white hover:text-primary mb-2 text-right mr-1"
+          className="block text-white hover:text-primary mb-2 mr-1"
         >
           About Us
         </a>
         <a
           href="a"
-          className="block text-white hover:text-primary mb-2 text-right mr-1"
+          className="block text-white hover:text-primary mb-2 mr-1"
         >
           Services
         </a>
-        <a href="A" className=" text-gray-800 hover:text-primary">
-            Contact
-        </a>
+        <Contact className="block text-white hover:text-primary" showEnvelope={false}/>
       </div>
     </nav>
   );

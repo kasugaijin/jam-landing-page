@@ -15,12 +15,12 @@ const Contact = ({className, showEnvelope}) => {
   };
 
   return (
-    <div
+    <button
       onClick={scrollToContactForm}
       className={className}
     >
       {showEnvelope && <BiEnvelope/>} Contact
-    </div>
+    </button>
   );
 };
 

@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
         <div className="mt-6 flex justify-start">
           <Contact 
-            className="btn-primary flex items-center ml-auto cursor-pointer" 
+            className="btn-primary flex items-center ml-auto" 
             showEnvelope={true}
           />
         </div>

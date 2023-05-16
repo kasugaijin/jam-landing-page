@@ -37,7 +37,7 @@ const Footer = () => {
               Contact us today to start chatting!
             </h3>
             <div className="mb-4 mt-6">
-              <label className="sr-only">
+              <label className="sr-only" htmlFor="name">
                 Name
               </label>
               <input
@@ -49,7 +49,7 @@ const Footer = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="sr-only">
+              <label className="sr-only" htmlFor="email">
                 Email
               </label>
               <input
@@ -61,7 +61,7 @@ const Footer = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="sr-only">
+              <label className="sr-only" htmlFor="message">
                 Message
               </label>
               <textarea
