@@ -3,7 +3,7 @@ import { MdWebAsset } from "react-icons/md";
 import { MdWeb } from "react-icons/md";
 import { TbTool } from "react-icons/tb";
 
-const Services = () => {
+const HomeServices = () => {
   return (
     <section className="pt-10 pb-10 relative bg-secondary">
       <div
@@ -95,4 +95,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default HomeServices;

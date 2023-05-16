@@ -2,7 +2,7 @@ import React from "react";
 import benHeadShot from "../../assets/ben.jpeg";
 import amiHeadShot from "../../assets/ami.jpeg";
 
-const AboutUs = () => {
+const HomeAbout = () => {
   return (
     <section className="pt-20 pb-60 relative">
       <div className="container mx-auto px-4">
@@ -55,4 +55,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default HomeAbout;
