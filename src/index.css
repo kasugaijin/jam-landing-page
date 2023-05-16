@@ -35,10 +35,6 @@
   }
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-
 /*Hamburger Menu*/
 .hamburger {
   --button-color: #333;
