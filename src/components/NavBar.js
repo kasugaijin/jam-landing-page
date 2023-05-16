@@ -1,6 +1,6 @@
 import React from "react";
-import { BiEnvelope } from "react-icons/bi";
 import { useState } from "react";
+import Contact from "./Contact";
 // import { IoMdMenu } from "react-icons/io";
 
 export default function Navbar() {
@@ -33,9 +33,7 @@ export default function Navbar() {
           <a href="A" className=" text-gray-800 hover:text-primary">
             Services
           </a>
-          <button className="btn-primary flex items-center" type="button">
-            <BiEnvelope /> Contact
-          </button>
+          <Contact className="text-gray-800 hover:text-primary" showEnvelope={false}/>
         </div>
 
         {/* Hamburger button */}
@@ -46,14 +44,14 @@ export default function Navbar() {
           onClick={handleClick}
         >
           <svg
-            class="hamburger fill-primary"
+            className="hamburger fill-primary"
             viewBox="0 0 100 100"
             width="50"
             height="50"
             transform="scale(0.8)"
           >
             <rect
-              class="line top"
+              className="line top"
               width="80"
               height="10"
               x="10"
@@ -61,7 +59,7 @@ export default function Navbar() {
               rx="5"
             ></rect>
             <rect
-              class="line middle"
+              className="line middle"
               width="80"
               height="10"
               x="10"
@@ -69,7 +67,7 @@ export default function Navbar() {
               rx="5"
             ></rect>
             <rect
-              class="line bottom"
+              className="line bottom"
               width="80"
               height="10"
               x="10"
@@ -82,25 +80,23 @@ export default function Navbar() {
       {/* mobile menu */}
       <div
         className={` 
-        absolute md:hidden top-15 right-0 w-40 bg-gray-800 bg-opacity-90 transition-transform duration-300 ease-in-out transform-gpu p-4 ${
+        absolute md:hidden top-15 right-0 w-40 bg-gray-800 bg-opacity-90 transition-transform duration-300 ease-in-out transform-gpu p-4 rounded-md flex flex-col items-end ${
           isOpen ? "mobile-menu-open" : "mobile-menu-closed"
         }`}
       >
         <a
           href="a"
-          className="block text-white hover:text-primary mb-2 text-right mr-1"
+          className="block text-white hover:text-primary mb-2"
         >
           About Us
         </a>
         <a
           href="a"
-          className="block text-white hover:text-primary mb-2 text-right mr-1"
+          className="block text-white hover:text-primary mb-2"
         >
           Services
         </a>
-        <button className="btn-primary flex items-center ml-auto" type="button">
-          <BiEnvelope /> Contact
-        </button>
+        <Contact className="block text-white hover:text-primary" showEnvelope={false}/>
       </div>
     </nav>
   );
