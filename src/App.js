@@ -1,17 +1,18 @@
 import NavBar from "./components/NavBar";
-import Hero from "./pages/home/Hero";
-import AboutUs from "./pages/home/AboutUs";
-import Services from "./pages/home/Services";
+import Home from "./pages/home/Home";
 import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
 
   return (
     <div className="App">
       <NavBar />
-      <Hero />
-      <Services />
-      <AboutUs />
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </Router>
       <Footer />
     </div>
   );
